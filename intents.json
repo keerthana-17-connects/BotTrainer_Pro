@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "name": "book_flight",
+      "examples": [
+        "book flight to Delhi",
+        "I want to fly to Mumbai",
+        "schedule flight for tomorrow"
+      ],
+      "entities": ["location", "date"]
+    },
+    {
+      "name": "order_food",
+      "examples": [
+        "order pizza",
+        "get me biryani",
+        "I want burger"
+      ],
+      "entities": ["food_item"]
+    },
+    {
+      "name": "check_weather",
+      "examples": [
+        "weather today",
+        "is it raining",
+        "temperature now"
+      ],
+      "entities": ["location"]
+    }
+  ]
+}
